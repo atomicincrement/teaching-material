@@ -55,7 +55,7 @@ fn main() {
     eprintln!("guess: 3 2 2 3 -> cow nothing nothing cow");
     eprintln!("");
 
-    println!("secret = {:?}", secret);
+    // println!("secret = {:?}", secret);
 
     loop {
         buf.clear();
