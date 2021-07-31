@@ -7,8 +7,8 @@ const NUM_DIGITS : usize = 4;
 //
 // Hints:
 //   Copy the guess and secrets arrays using Vec::from()
-//   Find the bulls (exact matches) first and put a -1 in the guess and -2 in the secret.
-//   Find the cows (inexact matches) next and put a -1 in the guess and -2 in the secret.
+//   Find the bulls (exact matches) first and put a 0 in the secret.
+//   Find the cows (inexact matches) next and put a 0 in the secret.
 //   return (num_bulls, num_cows)
 fn num_bulls_and_cows(guess: &[i32], secret: &[i32]) -> (i32, i32) {
     // Duplicate the secret, to we can tick off the ones we find.
